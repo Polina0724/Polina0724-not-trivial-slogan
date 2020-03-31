@@ -1,0 +1,151 @@
+
+@font-face
+{
+font-family: Waiting for the Sunrise;
+src: url('/fonts/WaitingfortheSunrise.ttf');
+}
+
+@font-face
+{
+font-family: Volkorn;
+src: url('/fonts/Vollkorn-Italic.ttf');
+}
+
+@font-face
+{
+font-family: Roboto;
+src: url('/fonts/roboto.thin.ttf');
+}
+
+*{
+box-sizing: border-box;
+}
+
+body {
+display: flex;
+flex-grow: 1;
+height: 100vh;
+width: 100vw;
+margin: 0;}
+
+.main {
+display: flex;
+flex-direction: column;
+width: 450px;
+max-width: 100%;
+height: auto;
+margin: auto;
+}
+
+.logo {
+display: flex;
+justify-content: center;
+width: 100%;
+height: 89px;
+top: 6px;
+margin-top: 15px;
+font-family: Waiting for the Sunrise;
+font-style: normal;
+font-size: 60px;
+color: #93C2ED;
+}
+
+.slogan {
+display: flex;
+margin-left: 200px;
+margin-right: 20px;
+font-family: Volkorn;
+font-style: normal;
+font-size: 20px;
+font-style: italic;
+color: #93C2ED;
+}
+
+hr {
+    width: 275px;
+    height: 0px;
+    left: 69.92px;
+    top: 212.8px;
+    border: 1px solid #93C2ED;
+
+}
+#rotated{
+width: 275px;
+height: 0px;
+left: 69.92px;
+top: 212.8px;
+transform: rotate(-4deg);
+border: 1px solid #93C2ED;
+}
+
+.today {
+display: flex;
+text-align: left;
+padding-left: 20px;
+font-family: Roboto;
+font-style: normal;
+color: #716868;
+font-weight: 300;
+line-height: 28px;
+font-size: 24px;
+margin: 20px;
+}
+
+.imsure {
+display: flex;
+text-align: left;
+padding-left: 20px;
+font-family: Roboto;
+font-style: normal;
+color: #716868;
+font-weight: 300;
+line-height: 28px;
+font-size: 24px;
+margin: 20px;
+}
+
+button {
+background-color: #93C2ED;
+width: 120px;
+align-self: center;
+border: none;
+text-align: center;
+font-weight: 700;
+color: white;
+height: fit-content;
+font-size: 16px;
+padding: 15px 15px;
+margin: 30px 2px;
+cursor: pointer;
+} 
+
+@media screen and (min-width: 900px) {
+    
+.main {
+width: 650px;
+}
+
+.slogan {
+margin-left: 300px;
+}
+
+.today {
+font-family: Roboto;
+padding-left: 50px;
+font-style: bold;
+font-size: 28px;
+margin: 40px;
+}
+
+.imsure {
+font-family: Roboto;
+padding-left: 50px;
+font-style: bold;
+font-size: 28px;
+margin: 40px;
+}
+
+button {
+display: flex;
+flex-grow: 5;
+} 
